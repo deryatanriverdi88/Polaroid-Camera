@@ -122,6 +122,18 @@ body {
   border-top: 2px solid #646D79;
 }
 
+.camera .top .click-button {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 25px;
+  left: 0px;
+  border-radius: 50%;
+  background: #cb5867;
+  -webkit-box-shadow: 2px 0px 2px inset #784852, -1px 0px 2px 2px #A8949F, 1px 0px 2px 3px #DDE1E7, 4px 0px 2px 3px #AFB0B4, 5px 0px 2px 3px #9C9AA2;
+          box-shadow: 2px 0px 2px inset #784852, -1px 0px 2px 2px #A8949F, 1px 0px 2px 3px #DDE1E7, 4px 0px 2px 3px #AFB0B4, 5px 0px 2px 3px #9C9AA2;
+}
+
 .camera .top .curve {
   width: 394px;
   height: 25px;
