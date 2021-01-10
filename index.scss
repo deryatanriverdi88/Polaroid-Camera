@@ -48,6 +48,8 @@ body{
             position: relative;
             top: 20px;
             left: 20px;
+            background: rgb(255,255,255);
+            background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(192,193,198,1) 75%);
             border-radius: 10px;
             box-shadow:0 3px 2px #BDCBDD inset,
                        6px 0px 2px #585A5F inset,
