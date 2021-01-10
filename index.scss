@@ -67,6 +67,27 @@ body{
                 border-color: transparent transparent #B1B2B9 #B1B2B9;
                 border-radius:0 0 0px 12px;
             }
+            .flash-lines{
+                position: relative;
+                top: 10px;
+                left: 6px;
+                width: 15px;
+                height: 1px;
+                border-top: 1px solid #B9B4AE;
+                box-shadow: 0px 3px 0px #B9B4AE,
+                            0px 6px 0px #B9B4AE,
+                            0px 9px 0px #B9B4AE,
+                            0px 20px 0px #B9B4AE,
+                            0px 23px 0px #B9B4AE,
+                            0px 26px 0px #B9B4AE,
+                            33px 0px 0px #B9B4AE,
+                            33px 3px 0px #B9B4AE,
+                            33px 6px 0px #B9B4AE,
+                            33px 9px 0px #B9B4AE,
+                            33px 20px 0px #B9B4AE,
+                            33px 23px 0px #B9B4AE,
+                            33px 26px 0px #B9B4AE;
+            }
             .inside-flash{
                 width: 20px;
                 height:92px;
