@@ -92,10 +92,29 @@ body{
                 width: 20px;
                 height:92px;
                 position: relative;
-                top: 3px;
+                top: 2px;
                 left: 20px;
-                border: 2px solid #E1E4E8;
-                background: #BEC0C5;
+                border: 1px solid #E1E4E8;
+                border-radius: 1px;
+                box-shadow: -10px -10px 10px inset #D6D8DB;
+                &:before, &:after{
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    left: 2px;
+                    width: 6.5px;
+                    height: 90px;
+                    background: rgb(255,255,255);
+                    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(192,193,198,1) 100%);
+                    border-radius: 1px;
+                }
+                &:after{
+                    top: 0;
+                    left: 11px;
+                    height: 86px;
+                    border-bottom: 2px solid #646D79;
+                    border-top: 2px solid #646D79;
+                }
             }
         }
         .curve{
