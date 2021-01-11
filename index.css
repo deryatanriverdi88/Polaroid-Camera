@@ -162,11 +162,77 @@ body {
   top: 3px;
 }
 
+.camera .top .lens-div {
+  position: relative;
+  z-index: 1;
+}
+
+.camera .top .lens-div .lens {
+  width: 140px;
+  height: 140px;
+  background: #464B54;
+  border-radius: 50%;
+  position: relative;
+  top: -100px;
+  left: 120px;
+  -webkit-box-shadow: 2px 0px 1px inset #595A67, -10px 0 5px inset rgba(94, 112, 132, 0.7), 10px 0px 10px inset #282B2D, 3px 0px 2px 3px #18181A, 18px 0 2px 3px #38363C, 25px 0 10px 5px #A0959D;
+          box-shadow: 2px 0px 1px inset #595A67, -10px 0 5px inset rgba(94, 112, 132, 0.7), 10px 0px 10px inset #282B2D, 3px 0px 2px 3px #18181A, 18px 0 2px 3px #38363C, 25px 0 10px 5px #A0959D;
+}
+
+.camera .top .lens-div .lens:before {
+  content: "";
+  display: inline-block;
+  background: #9CA7AE;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 40px;
+  left: -5px;
+  z-index: -1;
+  -webkit-box-shadow: 0px 2px 2px inset #D8E1F1, -0.5px 0px 1px 2px #7D808E;
+          box-shadow: 0px 2px 2px inset #D8E1F1, -0.5px 0px 1px 2px #7D808E;
+}
+
+.camera .top .lens-div .inside-lens {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: -190px;
+  left: 185px;
+  background: #007968;
+  -webkit-box-shadow: -2px 0 1px 3px #595E68, 5px 0 5px -2px inset #34B1B1, 6px 0 1px 1px inset #062C26, 12px 0 4px 4px inset #00534A, 15px 0 9px 9px inset #0F1815, -2px 0 1px 1px inset #20483A, -5px -1px 2px 5px #252525, -6px -1px 3px 8px #656A75, -10px 0px 3px 11px #000000, -10px 0 2px 15px #606676, -11px 0 3px 18px #050505, -12px -1px 2px 21px #606676, -13px 0 3px 23px #050505, -14px -1px 3px 25px #212227, -15px 0 3px 27px #585E6D, -17px -1px 2px 30px #171C1D, -16px -1px 2px 36px #6E7083, -15px -1px 2px 39px #141215;
+          box-shadow: -2px 0 1px 3px #595E68, 5px 0 5px -2px inset #34B1B1, 6px 0 1px 1px inset #062C26, 12px 0 4px 4px inset #00534A, 15px 0 9px 9px inset #0F1815, -2px 0 1px 1px inset #20483A, -5px -1px 2px 5px #252525, -6px -1px 3px 8px #656A75, -10px 0px 3px 11px #000000, -10px 0 2px 15px #606676, -11px 0 3px 18px #050505, -12px -1px 2px 21px #606676, -13px 0 3px 23px #050505, -14px -1px 3px 25px #212227, -15px 0 3px 27px #585E6D, -17px -1px 2px 30px #171C1D, -16px -1px 2px 36px #6E7083, -15px -1px 2px 39px #141215;
+}
+
+.camera .top .lens-div .inside-lens:before, .camera .top .lens-div .inside-lens:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  width: 15px;
+  height: 19px;
+  border-width: 7px 0px 7px 10px;
+  border-color: transparent transparent transparent rgba(47, 175, 175, 0.3);
+  border-style: solid;
+  border-radius: 50% 0 0 50%;
+}
+
+.camera .top .lens-div .inside-lens:after {
+  width: 5px;
+  height: 10px;
+  border-width: 5px 0 5px 5px;
+  top: 11px;
+  left: 20px;
+}
+
 .camera .top .click-button {
   width: 40px;
   height: 40px;
   position: relative;
-  top: 15px;
+  top: -155px;
   left: 20px;
   border-radius: 50%;
   background: #e7a0a6;
@@ -212,8 +278,8 @@ body {
   height: 25px;
   background: #CACBD4;
   position: relative;
-  top: 39px;
-  left: -45px;
+  top: -141px;
+  left: -46px;
   -webkit-transform: skewX(-75deg);
           transform: skewX(-75deg);
   border-radius: 0 0 0 5px;
