@@ -16,7 +16,7 @@ body {
 }
 
 .camera .top {
-  width: 400px;
+  width: 375px;
   height: 200px;
   background: #DEE2EA;
   border-radius: 30px 30px 10px 0;
@@ -30,20 +30,19 @@ body {
 }
 
 .camera .top:before {
-  width: 120px;
+  width: 126px;
   height: 40px;
-  top: 208px;
-  left: 297px;
-  -webkit-transform: skewY(-16deg);
-          transform: skewY(-16deg);
+  top: 207px;
+  left: 275px;
+  -webkit-transform: skewY(-14.7deg);
+          transform: skewY(-14.7deg);
   z-index: -1;
-  border-radius: 0 0 0 5px;
 }
 
 .camera .top:after {
   width: 60px;
   height: 225px;
-  left: 370px;
+  left: 350px;
   top: 4px;
   z-index: -1;
   border-radius: 0 30px 15px 0px;
@@ -286,7 +285,7 @@ body {
 }
 
 .camera .top .curve {
-  width: 394px;
+  width: 369px;
   height: 25px;
   background: #CACBD4;
   position: relative;
@@ -303,7 +302,7 @@ body {
   position: absolute;
   left: 77px;
   top: 25px;
-  width: 390px;
+  width: 366px;
   height: 40px;
   border-radius: 3px 0 0 5px;
   -webkit-transform: skewX(75deg);
