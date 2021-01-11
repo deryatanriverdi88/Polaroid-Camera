@@ -54,19 +54,18 @@ body{
             box-shadow:0 3px 2px #BDCBDD inset,
                        6px 0px 2px #585A5F inset,
                        2px 0px 3px #767B83;
-            &:before{
-                content: "";
-                display: inline-block;
-                position: absolute;
-                top: 58px;
-                left: -5px;
-                width: 20px;
-                height:40px;
-                border-width: 0px 0px 3px 3px;
-                border-style: solid;
-                border-color: transparent transparent #B1B2B9 #B1B2B9;
-                border-radius:0 0 0px 12px;
-            }
+                       &:before{
+                        content: "";
+                        display: inline-block;
+                        position: absolute;
+                        top: 58px;
+                        left: -2px;
+                        width: 20px;
+                        height:40px;
+                        border-radius:0 0 0 10px;
+                        box-shadow: -3px 3px 1px 0px #BAB9BF,
+                                    -5px 5px 4px 0px #EDEFF6;
+                        }
             .flash-lines{
                 position: relative;
                 top: 10px;
