@@ -239,11 +239,65 @@ body {
           box-shadow: 10px 0 2px 0 inset black, 0 0 1.5px 3px #57595E, 0.5px 0 1px 4px #010001, 6px 0 1px 5px #252327, 9px 2px 5px 6px #8B868C;
 }
 
+.camera .top .view-finder {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -298px;
+  left: 300px;
+  background: #D5D1D5;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 2px 2px inset #9F9CA5, 3px 0 3px 1px inset rgba(153, 155, 204, 0.8), 6px 0 1px 1px inset #C5CBEE, 13px 0 5px 5px inset rgba(153, 154, 217, 0.8), 14px 0px 1px 5px inset #CED4F0, 17px 0 10px 5px inset rgba(153, 154, 217, 0.8), 19px 0px 1px 10px inset #CED4F0, 23px 0 6px 13px inset rgba(184, 189, 231, 0.8), 0 0 2px 1px #3D3A43, -3px 0 3px 0 #807983;
+          box-shadow: 0 0 2px 2px inset #9F9CA5, 3px 0 3px 1px inset rgba(153, 155, 204, 0.8), 6px 0 1px 1px inset #C5CBEE, 13px 0 5px 5px inset rgba(153, 154, 217, 0.8), 14px 0px 1px 5px inset #CED4F0, 17px 0 10px 5px inset rgba(153, 154, 217, 0.8), 19px 0px 1px 10px inset #CED4F0, 23px 0 6px 13px inset rgba(184, 189, 231, 0.8), 0 0 2px 1px #3D3A43, -3px 0 3px 0 #807983;
+}
+
+.camera .top .view-finder .reflection {
+  width: 23px;
+  height: 50px;
+  border-style: solid;
+  border-width: 7px 0px 7px 10px;
+  border-color: transparent transparent transparent rgba(241, 243, 252, 0.6);
+  position: relative;
+  left: 12px;
+  top: 5px;
+}
+
+.camera .top .view-finder .reflection:before, .camera .top .view-finder .reflection:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: 15px;
+  height: 20px;
+  border-width: 7px 0px 7px 10px;
+  border-color: transparent transparent transparent rgba(241, 243, 252, 0.6);
+  border-style: solid;
+}
+
+.camera .top .view-finder .reflection:after {
+  width: 5px;
+  height: 10px;
+  border-width: 5px 0 5px 5px;
+  top: 5px;
+  left: 18px;
+}
+
+.camera .top .view-finder .glass {
+  width: 60px;
+  height: 60px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(164, 166, 231, 0.6)), color-stop(17%, rgba(137, 136, 196, 0.6)), color-stop(44%, rgba(112, 113, 167, 0.6)), color-stop(67%, rgba(179, 167, 198, 0.6)), color-stop(80%, rgba(161, 149, 176, 0.3)), to(rgba(82, 73, 83, 0.3)));
+  background: linear-gradient(90deg, rgba(164, 166, 231, 0.6) 0%, rgba(137, 136, 196, 0.6) 17%, rgba(112, 113, 167, 0.6) 44%, rgba(179, 167, 198, 0.6) 67%, rgba(161, 149, 176, 0.3) 80%, rgba(82, 73, 83, 0.3) 100%);
+  position: relative;
+  top: -50px;
+  border-radius: 10px;
+}
+
 .camera .top .click-button {
   width: 40px;
   height: 40px;
   position: relative;
-  top: -175px;
+  top: -230px;
   left: 20px;
   border-radius: 50%;
   background: #e7a0a6;
@@ -289,7 +343,7 @@ body {
   height: 25px;
   background: #CACBD4;
   position: relative;
-  top: -156px;
+  top: -216px;
   left: -46px;
   -webkit-transform: skewX(-75deg);
           transform: skewX(-75deg);
