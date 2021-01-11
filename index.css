@@ -7,15 +7,17 @@
 
 body {
   background: #EC5F67;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .camera {
-  position: absolute;
-  top: 100px;
-  left: 200px;
+  margin: auto;
 }
 
 .camera .top {
+  position: relative;
   width: 375px;
   height: 200px;
   background: #DEE2EA;
@@ -293,11 +295,82 @@ body {
   border-radius: 10px;
 }
 
+.camera .top .minus-plus-button {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  background: #C49E6F;
+  top: -285px;
+  left: 313px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6E4C03;
+          box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6E4C03;
+}
+
+.camera .top .minus-plus-button:before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 15px;
+  background: rgba(246, 216, 183, 0.7);
+  position: absolute;
+  left: 15px;
+  top: 3px;
+  border-radius: 50%;
+  -webkit-box-shadow: -1.5px 0 0 0 #C49E6F, -1px 0 0 1px rgba(246, 216, 183, 0.7), 1.5px 0 1px 1.5px #E3B65A, 6px 0 1px 2px #AF762C, 12px 0 2px 2px #905E09;
+          box-shadow: -1.5px 0 0 0 #C49E6F, -1px 0 0 1px rgba(246, 216, 183, 0.7), 1.5px 0 1px 1.5px #E3B65A, 6px 0 1px 2px #AF762C, 12px 0 2px 2px #905E09;
+}
+
+.camera .top .minus-plus-button .minus, .camera .top .minus-plus-button .plus {
+  width: 8px;
+  border-radius: 1px;
+  position: relative;
+  border: .5px solid #E7E1E8;
+}
+
+.camera .top .minus-plus-button .minus {
+  border: .5px solid #E7E1E8;
+  -webkit-box-shadow: 0 0 2px 1px #B2A8AD;
+          box-shadow: 0 0 2px 1px #B2A8AD;
+  top: 10px;
+  left: -13px;
+}
+
+.camera .top .minus-plus-button .plus {
+  width: 8px;
+  top: 7.5px;
+  left: 44px;
+  -webkit-box-shadow: 1.5px 0.5px 1px 0.5px #B2A8AD;
+          box-shadow: 1.5px 0.5px 1px 0.5px #B2A8AD;
+}
+
+.camera .top .minus-plus-button .plus:before, .camera .top .minus-plus-button .plus:after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  position: absolute;
+  border: .5px solid #E7E1E8;
+  -webkit-box-shadow: 1px 0 1px #B2A8AD;
+          box-shadow: 1px 0 1px #B2A8AD;
+  border-radius: 1px;
+  z-index: 2;
+}
+
+.camera .top .minus-plus-button .plus:before {
+  left: 2px;
+  top: -6.5px;
+}
+
+.camera .top .minus-plus-button .plus:after {
+  left: 2.56px;
+  top: 1px;
+}
+
 .camera .top .click-button {
   width: 40px;
   height: 40px;
   position: relative;
-  top: -230px;
+  top: -250px;
   left: 20px;
   border-radius: 50%;
   background: #e7a0a6;
@@ -343,7 +416,7 @@ body {
   height: 25px;
   background: #CACBD4;
   position: relative;
-  top: -216px;
+  top: -236px;
   left: -46px;
   -webkit-transform: skewX(-75deg);
           transform: skewX(-75deg);
