@@ -70,13 +70,12 @@ body {
   display: inline-block;
   position: absolute;
   top: 58px;
-  left: -5px;
+  left: -2px;
   width: 20px;
   height: 40px;
-  border-width: 0px 0px 3px 3px;
-  border-style: solid;
-  border-color: transparent transparent #B1B2B9 #B1B2B9;
-  border-radius: 0 0 0px 12px;
+  border-radius: 0 0 0 10px;
+  -webkit-box-shadow: -3px 3px 1px 0px #BAB9BF, -5px 5px 4px 0px #EDEFF6;
+          box-shadow: -3px 3px 1px 0px #BAB9BF, -5px 5px 4px 0px #EDEFF6;
 }
 
 .camera .top .flash .flash-lines {
@@ -228,11 +227,24 @@ body {
   left: 20px;
 }
 
+.camera .top .circle {
+  width: 15px;
+  height: 15px;
+  background: #3B3A40;
+  border-radius: 50%;
+  position: relative;
+  top: -160px;
+  left: 270px;
+  z-index: 1;
+  -webkit-box-shadow: 10px 0 2px 0 inset black, 0 0 1.5px 3px #57595E, 0.5px 0 1px 4px #010001, 6px 0 1px 5px #252327, 9px 2px 5px 6px #8B868C;
+          box-shadow: 10px 0 2px 0 inset black, 0 0 1.5px 3px #57595E, 0.5px 0 1px 4px #010001, 6px 0 1px 5px #252327, 9px 2px 5px 6px #8B868C;
+}
+
 .camera .top .click-button {
   width: 40px;
   height: 40px;
   position: relative;
-  top: -155px;
+  top: -175px;
   left: 20px;
   border-radius: 50%;
   background: #e7a0a6;
@@ -278,7 +290,7 @@ body {
   height: 25px;
   background: #CACBD4;
   position: relative;
-  top: -141px;
+  top: -156px;
   left: -46px;
   -webkit-transform: skewX(-75deg);
           transform: skewX(-75deg);
