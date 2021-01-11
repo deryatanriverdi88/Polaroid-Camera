@@ -13,7 +13,7 @@ body{
     top: 100px;
     left: 200px;
     .top{
-        width: 400px;
+        width: 375px;
         height: 200px;
         background: #DEE2EA;
         border-radius: 30px 30px 10px 0;
@@ -24,18 +24,17 @@ body{
             position: absolute;
         }
         &:before{
-            width: 120px;
+            width: 126px;
             height: 40px;
-            top: 208px;
-            left: 297px;
-            transform: skewY(-16deg);
+            top: 207px;
+            left: 275px;
+            transform: skewY(-14.7deg);
             z-index: -1;
-            border-radius: 0 0 0 5px;
         }
         &:after{
             width: 60px;
             height:225px;
-            left: 370px;
+            left: 350px;
             top: 4px;
             z-index: -1;
             border-radius: 0 30px 15px 0px;
