@@ -244,6 +244,62 @@ body{
                         6px 0 1px 5px #252327,
                         9px 2px 5px 6px #8B868C;
         }
+        .view-finder{
+            width: 60px;
+            height: 60px;
+            position: relative;
+            top: -298px;
+            left: 300px;
+            background: #D5D1D5;
+            border-radius: 10px;
+            box-shadow: 0 0 2px 2px inset #9F9CA5,
+                        3px 0 3px 1px inset rgba(153,155,204, .8),
+                        6px 0 1px 1px inset #C5CBEE,
+                        13px 0 5px 5px inset rgba(153,154,217, .8),
+                        14px 0px 01px 5px inset #CED4F0,
+                        17px 0 10px 5px inset rgba(153,154,217, .8),
+                        19px 0px 1px 10px inset #CED4F0,
+                        23px 0 6px 13px inset rgba(184,189,231, .8),
+                        0 0 2px 1px #3D3A43,
+                        -3px 0 3px 0 #807983;
+            .reflection{
+                width: 23px;
+                height: 50px;
+                border-style: solid;
+                border-width: 7px 0px 7px 10px;
+                border-color: transparent transparent  transparent rgba(241,243,252, .6);
+                position: relative;
+                left: 12px;
+                top: 5px;
+                &:before, &:after{
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    top: 0px;
+                    left: 5px;
+                    width: 15px;
+                    height: 20px;
+                    border-width: 7px 0px 7px 10px;
+                    border-color: transparent transparent  transparent rgba(241,243,252, .6);
+                    border-style: solid;
+                }
+                &:after{
+                    width: 5px;
+                    height: 10px;
+                    border-width: 5px 0 5px 5px;
+                    top: 5px;
+                    left: 18px;
+                }
+            }
+            .glass{
+                width: 60px;
+                height: 60px;
+                background: linear-gradient(90deg, rgba(164,166,231,.6) 0%, rgba(137,136,196,.6) 17%, rgba(112,113,167,.6) 44%, rgba(179,167,198,.6) 67%, rgba(161,149,176,.3) 80%, rgba(82,73,83,.3) 100%);
+                position: relative;
+                top: -50px;
+                border-radius: 10px;
+            }
+        }
         .click-button{
             width: 40px;
             height: 40px;
