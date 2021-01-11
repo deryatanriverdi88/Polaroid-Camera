@@ -300,6 +300,70 @@ body{
                 border-radius: 10px;
             }
         }
+        .minus-plus-button{
+            width: 40px;
+            height: 20px;
+            position: relative;
+            background: #C49E6F;
+            top: -285px;
+            left: 313px;
+            border-radius: 10px;
+            box-shadow: 4px 0 4px inset #999199,
+                        6px 0 0px 1px inset #624122,
+                        10px 0 4px 0px inset #6E4C03;
+            &:before{
+                content: "";
+                display: inline-block;
+                width: 9px;
+                height: 15px;
+                background: rgba(246,216,183, .7);
+                position: absolute;
+                left: 15px;
+                top: 3px;
+                border-radius: 50%;
+                box-shadow:-1.5px 0 0 0 #C49E6F,
+                            -1px 0  0  1px rgba(246,216,183, .7),
+                            1.5px 0 1px 1.5px #E3B65A,
+                            6px 0 1px 2px #AF762C,
+                            12px 0 2px 2px #905E09;
+            }
+            .minus, .plus{
+                width: 8px;
+                border-radius: 1px;
+                position: relative;
+                border: .5px solid #E7E1E8;
+}
+            .minus{
+                border: .5px solid #E7E1E8;
+                box-shadow: 0 0 2px 1px #B2A8AD;
+                top: 10px;
+                left: -13px;
+            }
+            .plus{
+                width: 8px;
+                top: 7.5px;
+                left: 44px;
+                box-shadow: 1.5px 0.5px 1px 0.5px #B2A8AD;
+                &:before, &:after{
+                    content: "";
+                    display: inline-block;
+                    height: 4px;
+                    position: absolute;
+                    border: .5px solid #E7E1E8;
+                    box-shadow: 1px 0 1px #B2A8AD;
+                    border-radius: 1px;
+                    z-index: 2;
+                }
+                &:before{
+                    left: 2px;
+                    top: -6.5px;
+                }
+                &:after{
+                    left: 2.56px;
+                    top: 1px;
+                }
+            }
+        }
         .click-button{
             width: 40px;
             height: 40px;
