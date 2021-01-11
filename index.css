@@ -122,12 +122,52 @@ body {
   border-top: 2px solid #646D79;
 }
 
+.camera .top .on-off-button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #B5B5BF;
+  border-radius: 50%;
+  position: relative;
+  top: -70px;
+  left: 95px;
+  -webkit-box-shadow: 1px 0px 1px 0px #B5B5BF, 2px 0px 2px 1px #777580;
+          box-shadow: 1px 0px 1px 0px #B5B5BF, 2px 0px 2px 1px #777580;
+}
+
+.camera .top .on-off-button:before, .camera .top .on-off-button:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+
+.camera .top .on-off-button:before {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border-width: 1.5px 1.5px 1.5px 1.5px;
+  border-style: solid;
+  border-color: #ADB2C0 #ADB2C0 #ADB2C0 transparent;
+  top: 1px;
+  left: 1px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.camera .top .on-off-button:after {
+  height: 8px;
+  border-left: 1.5px solid #ADB2C0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: 7px;
+  top: 3px;
+}
+
 .camera .top .click-button {
   width: 40px;
   height: 40px;
   position: relative;
-  top: 25px;
-  left: 0px;
+  top: 15px;
+  left: 20px;
   border-radius: 50%;
   background: #e7a0a6;
   background: radial-gradient(circle, #e7a0a6 0%, #cb5867 50%);
@@ -172,7 +212,7 @@ body {
   height: 25px;
   background: #CACBD4;
   position: relative;
-  top: 99px;
+  top: 39px;
   left: -45px;
   -webkit-transform: skewX(-75deg);
           transform: skewX(-75deg);
