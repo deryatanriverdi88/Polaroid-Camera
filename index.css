@@ -352,25 +352,49 @@ body {
   border: .5px solid #E7E1E8;
   -webkit-box-shadow: 1px 0 1px #B2A8AD;
           box-shadow: 1px 0 1px #B2A8AD;
-  border-radius: 1px;
   z-index: 2;
 }
 
 .camera .top .minus-plus-button .plus:before {
   left: 2px;
   top: -6.5px;
+  border-radius: 1px 1px 0 0;
 }
 
 .camera .top .minus-plus-button .plus:after {
+  border-radius: 0 0 1px 1px;
   left: 2.56px;
   top: 1px;
+}
+
+.camera .top .brand-name {
+  position: relative;
+  top: -240px;
+  left: 320px;
+  color: #787581;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+}
+
+.camera .top .brand-name span:nth-child(1) {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  padding-left: 4px;
+  margin-bottom: -16px;
+}
+
+.camera .top .brand-name span.number {
+  color: #DEC487;
+  font-size: 25px;
 }
 
 .camera .top .click-button {
   width: 40px;
   height: 40px;
   position: relative;
-  top: -250px;
+  top: -290px;
   left: 20px;
   border-radius: 50%;
   background: #e7a0a6;
@@ -416,7 +440,7 @@ body {
   height: 25px;
   background: #CACBD4;
   position: relative;
-  top: -236px;
+  top: -266px;
   left: -46px;
   -webkit-transform: skewX(-75deg);
           transform: skewX(-75deg);
