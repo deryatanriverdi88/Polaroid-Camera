@@ -839,4 +839,8 @@ body {
         top: -140px;
         left: 210px;
     }
+    .back-div {
+        position: relative;
+        z-index: -11;
+    }
 }
