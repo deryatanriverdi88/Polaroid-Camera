@@ -432,4 +432,16 @@ body {
   left: 2.3px;
   top: 1px;
 }
+
+.camera .top .brand-name {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  top: -240px;
+  left: 310px;
+  color: #787581;
+  font-size: 15px;
+  font-family: "Merriweather", serif;
+}
 /*# sourceMappingURL=index.css.map */
