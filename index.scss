@@ -638,6 +638,27 @@ body {
                         -5px -4px 3px inset #111114;
                 }
             }
+            .second-part {
+                position: relative;
+                &:before,
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    top: 3px;
+                    width: 12px;
+                    height: 5px;
+                    border-radius: 2px 0 0 2px;
+                    background: #121215;
+                    transform: skewX(55deg);
+                    left: 8.5px;
+                }
+                &:after {
+                    width: 12px;
+                    left: 80px;
+                    border-radius: 0 0px 0 6px;
+                }
+            }
         }
     }
 }
