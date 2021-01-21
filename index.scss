@@ -441,5 +441,14 @@ body {
                 }
             }
         }
+        .brand-name {
+            width: fit-content;
+            position: relative;
+            top: -240px;
+            left: 310px;
+            color: #787581;
+            font-size: 15px;
+            font-family: "Merriweather", serif;
+        }
     }
 }
