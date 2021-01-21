@@ -476,4 +476,33 @@ body {
 .camera .top .click-button:hover {
   cursor: pointer;
 }
+
+.camera .top .click-button:before, .camera .top .click-button:after {
+  position: absolute;
+  display: inline-block;
+}
+
+.camera .top .click-button:before {
+  content: "Take a photo!";
+  padding: 5px;
+  width: 100px;
+  height: auto;
+  background: #aecee5;
+  text-align: center;
+  border-radius: 5px;
+  left: -130px;
+  top: 10px;
+  color: gray;
+}
+
+.camera .top .click-button:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-width: 5px 0 5px 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent #aecee5;
+  left: -20px;
+  top: 19px;
+}
 /*# sourceMappingURL=index.css.map */
