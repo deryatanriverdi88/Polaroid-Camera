@@ -41,3 +41,10 @@ clickButton.addEventListener('click', function(){
     clickFunction();
     addDisplayNone();
 });
+
+if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
+    navigator.mediaDevices.getUserMedia({video: true}).then(stream => {
+        video.srcObject = stream;
+        video.play();
+    });
+};
