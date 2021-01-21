@@ -1034,3 +1034,31 @@ body {
         height: 0;
     }
 }
+
+@keyframes printing-photo {
+    0% {
+        height: 40px;
+        clip-path: inset(74% 0 0 0);
+    }
+
+    25% {
+        height: 75px;
+        clip-path: inset(54% 0 0 0);
+    }
+
+    50% {
+        height: 110px;
+        clip-path: inset(27% 0 0 0);
+    }
+
+    75% {
+        height: 145px;
+        clip-path: inset(11% 0 0 0);
+    }
+
+    100% {
+        height: 180px;
+        border-top: 10px solid #d9d9dd;
+        clip-path: inset(0% 0 0 0);
+    }
+}
