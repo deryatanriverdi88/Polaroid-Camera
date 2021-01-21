@@ -718,4 +718,19 @@ body {
   box-shadow: -1px 0px 2px 2.5px inset #19141b;
   -moz-box-shadow: -1px 0px 2px 2.5px inset #19141b;
 }
+
+.camera .bottom {
+  width: 310px;
+  height: 35px;
+  background: black;
+  position: relative;
+  top: 78px;
+  left: -55px;
+  border-width: 0 0 6px 14px;
+  border-style: solid;
+  border-color: transparent transparent transparent #151518;
+  -webkit-box-shadow: 0 3px 2px #222530, 2px 1px 1px #4d5461, -4px 1px 1px inset #222631;
+  box-shadow: 0 3px 2px #222530, 2px 1px 1px #4d5461, -4px 1px 1px inset #222631;
+  -moz-box-shadow: 0 3px 2px #222530, 2px 1px 1px #4d5461, -4px 1px 1px inset #222631;
+}
 /*# sourceMappingURL=index.css.map */
