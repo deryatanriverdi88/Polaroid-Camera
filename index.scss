@@ -158,5 +158,17 @@ body {
                 animation: 1s flash-light;
             }
         }
+        .on-off-button {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #b5b5bf;
+            border-radius: 50%;
+            position: relative;
+            top: -70px;
+            left: 95px;
+            -webkit-box-shadow: 1px 0 1px #b5b5bf, 2px 0 2px 1px #777580;
+            box-shadow: 1px 0 1px 0 #b5b5bf, 2px 0 2px 1px #777580;
+            -moz-box-shadow: 1px 0 1px #b5b5bf, 2px 0 2px 1px #777580;
+        }
     }
 }
