@@ -863,4 +863,32 @@ body {
   box-shadow: 6px 10px 6px inset #6d6871, 20px 13px 25px inset #38363c, 70px 0 25px inset #342d35;
   -moz-box-shadow: 6px 10px 6px inset #6d6871, 20px 13px 25px inset #38363c, 70px 0 25px inset #342d35;
 }
+
+.camera .back-div .first-part:before, .camera .back-div .first-part:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background: #302f35;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  background-size: 55%;
+  z-index: -1;
+}
+
+.camera .back-div .first-part:before {
+  width: 72px;
+  height: 91px;
+  top: 69px;
+  left: 79px;
+  -webkit-transform: skewx(25deg);
+          transform: skewx(25deg);
+  border-radius: 0 5px 0 0;
+}
+
+.camera .back-div .first-part:after {
+  width: 74px;
+  height: 80px;
+  top: 156px;
+  left: 99.5px;
+  border-radius: 0 10px 0 0;
+}
 /*# sourceMappingURL=index.css.map */
