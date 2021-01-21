@@ -169,6 +169,30 @@ body {
             -webkit-box-shadow: 1px 0 1px #b5b5bf, 2px 0 2px 1px #777580;
             box-shadow: 1px 0 1px 0 #b5b5bf, 2px 0 2px 1px #777580;
             -moz-box-shadow: 1px 0 1px #b5b5bf, 2px 0 2px 1px #777580;
+            &:before,
+            &:after {
+                content: "";
+                display: inline-block;
+                position: absolute;
+            }
+            &:before {
+                width: 13px;
+                height: 13px;
+                border-radius: 50%;
+                border-width: 1.5px 1.5px 1.5px 1.5px;
+                border-style: solid;
+                border-color: #adb2c0 #adb2c0 #adb2c0 transparent;
+                top: 1px;
+                left: 1px;
+                transform: rotate(45deg);
+            }
+            &:after {
+                height: 8px;
+                border-left: 1.5px solid #adb2c0;
+                transform: rotate(-45deg);
+                left: 7px;
+                top: 3px;
+            }
         }
     }
 }
