@@ -321,4 +321,28 @@ body {
   left: 12px;
   top: 5px;
 }
+
+.camera .top .view-finder .reflection:before, .camera .top .view-finder .reflection:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-color: transparent transparent transparent rgba(241, 243, 252, 0.6);
+  border-style: solid;
+}
+
+.camera .top .view-finder .reflection:before {
+  width: 15px;
+  height: 20px;
+  border-width: 7px 0px 7px 10px;
+  left: 5px;
+  top: 0px;
+}
+
+.camera .top .view-finder .reflection:after {
+  width: 5px;
+  height: 10px;
+  border-width: 5px 0 5px 5px;
+  top: 5px;
+  left: 18px;
+}
 /*# sourceMappingURL=index.css.map */
