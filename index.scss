@@ -602,6 +602,21 @@ body {
                 top: 10px;
                 left: 4.5px;
             }
+            .first-part {
+                width: 85px;
+                height: 9px;
+                background: #2d2c32;
+                background-image: $background-image;
+                background-size: 70%;
+                transform: skewX(-15deg);
+                position: relative;
+                top: 4px;
+                left: 8px;
+                border-radius: 2px 1px 2px 1px;
+                box-shadow: 14px 3px 4px inset #121215, -14px 0 3px inset #121215;
+                -webkit-box-shadow: 14px 3px 4px inset #121215, -14px 0 3px inset #121215;
+                -moz-box-shadow: 14px 3px 4px inset #121215, -14px 0 3px inset #121215;
+            }
         }
     }
 }
