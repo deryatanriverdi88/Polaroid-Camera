@@ -7,3 +7,8 @@ let polaroid = document.querySelector('.polaroid');
 let img = document.querySelector('img');
 let dataUrl = canvas.toDataURL();
 let shadow = document.querySelector("#shadow");
+
+function converetCanvastoImage(c){
+    src = c.toDataURL('image/jpeg');
+    return src
+}
