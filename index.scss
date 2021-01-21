@@ -1122,3 +1122,13 @@ body {
         left: 350px;
     }
 }
+
+@media only screen and (min-width: 1200px) {
+    #video {
+        width: 130px;
+        height: 120px;
+    }
+    .camera {
+        left: 400px;
+    }
+}
