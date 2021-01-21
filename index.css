@@ -839,4 +839,9 @@ body {
   top: -140px;
   left: 210px;
 }
+
+.camera .back-div {
+  position: relative;
+  z-index: -11;
+}
 /*# sourceMappingURL=index.css.map */
