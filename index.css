@@ -219,4 +219,17 @@ body {
   position: relative;
   z-index: 1;
 }
+
+.camera .top .lens-div .lens {
+  width: 140px;
+  height: 140px;
+  background: #464b54;
+  border-radius: 50%;
+  position: relative;
+  top: -100px;
+  left: 120px;
+  -webkit-box-shadow: 2px 0 1px inset #595a67, -10px 0 5px inset rgba(94, 112, 132, 0.7), 10px 0 10px inset #282b2d, 3px 0 2px 3px #18181a, 18px 0 2px 3px #38363c, 25px 0 10px 5px #a0959d, 33px 0 15px 3px #bcafb2;
+  box-shadow: 2px 0 1px inset #595a67, -10px 0 5px inset rgba(94, 112, 132, 0.7), 10px 0 10px inset #282b2d, 3px 0 2px 3px #18181a, 18px 0 2px 3px #38363c, 25px 0 10px 5px #a0959d, 33px 0 15px 3px #bcafb2;
+  -moz-box-shadow: 2px 0px 1px inset #595a67, -10px 0 5px inset rgba(94, 112, 132, 0.7), 10px 0px 10px inset #282b2d, 3px 0px 2px 3px #18181a, 18px 0 2px 3px #38363c, 25px 0 10px 5px #a0959d, 33px 0 15px 3px #bcafb2;
+}
 /*# sourceMappingURL=index.css.map */
