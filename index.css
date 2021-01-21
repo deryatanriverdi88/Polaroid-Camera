@@ -368,4 +368,19 @@ body {
   box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6e4c03;
   -moz-box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6e4c03;
 }
+
+.camera .top .minus-plus-button:before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 15px;
+  background: rgba(246, 216, 183, 0.7);
+  position: absolute;
+  left: 15px;
+  top: 3px;
+  border-radius: 50%;
+  -webkit-box-shadow: -1.5px 0 0 0 #c49e6f, -1px 0 0 1px rgba(246, 216, 183, 0.7), 1.5px 0 1px 1.5px #e3b65a, 6px 0 1px 2px #af762c, 12px 0 2px 2px #905e09;
+  box-shadow: -1.5px 0 0 0 #c49e6f, -1px 0 0 1px rgba(246, 216, 183, 0.7), 1.5px 0 1px 1.5px #e3b65a, 6px 0 1px 2px #af762c, 12px 0 2px 2px #905e09;
+  -moz-box-shadow: -1.5px 0 0 0 #c49e6f, -1px 0 0 1px rgba(246, 216, 183, 0.7), 1.5px 0 1px 1.5px #e3b65a, 6px 0 1px 2px #af762c, 12px 0 2px 2px #905e09;
+}
 /*# sourceMappingURL=index.css.map */
