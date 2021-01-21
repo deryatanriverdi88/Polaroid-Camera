@@ -318,6 +318,16 @@ body {
                 14px 0px 01px 5px inset #ced4f0, 17px 0 10px 5px inset rgba(153, 154, 217, 0.8),
                 19px 0px 1px 10px inset #ced4f0, 23px 0 6px 13px inset rgba(184, 189, 231, 0.8), 0 0 2px 1px #3d3a43,
                 -3px 0 3px 0 #807983;
+                .reflection {
+                    width: 23px;
+                    height: 50px;
+                    border-style: solid;
+                    border-width: 7px 0px 7px 10px;
+                    border-color: transparent transparent transparent rgba(241, 243, 252, 0.6);
+                    position: relative;
+                    left: 12px;
+                    top: 5px;
+                }
         }
     }
 }
