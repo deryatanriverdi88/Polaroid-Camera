@@ -844,4 +844,11 @@ body {
   position: relative;
   z-index: -11;
 }
+
+.camera .back-div .first-part,
+.camera .back-div .second-part {
+  background: #302f35;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  position: relative;
+}
 /*# sourceMappingURL=index.css.map */
