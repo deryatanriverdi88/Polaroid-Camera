@@ -1116,4 +1116,14 @@ body {
     left: 105px;
   }
 }
+
+@media only screen and (min-width: 700px) {
+  #video {
+    width: 80px;
+    height: 70px;
+  }
+  .camera {
+    left: 150px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
