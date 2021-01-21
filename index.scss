@@ -318,7 +318,7 @@ body {
                 14px 0px 01px 5px inset #ced4f0, 17px 0 10px 5px inset rgba(153, 154, 217, 0.8),
                 19px 0px 1px 10px inset #ced4f0, 23px 0 6px 13px inset rgba(184, 189, 231, 0.8), 0 0 2px 1px #3d3a43,
                 -3px 0 3px 0 #807983;
-                .reflection {
+            .reflection {
                     width: 23px;
                     height: 50px;
                     border-style: solid;
@@ -349,7 +349,23 @@ body {
                         top: 5px;
                         left: 18px;
                     }
-                }
+            }
+            .glass {
+                    width: 60px;
+                    height: 60px;
+                    background: linear-gradient(
+                        90deg,
+                        rgba(164, 166, 231, 0.6) 0%,
+                        rgba(137, 136, 196, 0.6) 17%,
+                        rgba(112, 113, 167, 0.6) 44%,
+                        rgba(179, 167, 198, 0.6) 67%,
+                        rgba(161, 149, 176, 0.3) 80%,
+                        rgba(82, 73, 83, 0.3) 100%
+                    );
+                    position: relative;
+                    top: -50px;
+                    border-radius: 10px;
+            }
         }
     }
 }
