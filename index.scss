@@ -110,6 +110,26 @@ body {
                 -webkit-box-shadow: -10px -10px 10px inset #d6d8db;
                 box-shadow: -10px -10px 10px inset #d6d8db;
                 -moz-box-shadow: -10px -10px 10px inset #d6d8db;
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    width: 6.5px;
+                    background: rgb(255, 255, 255);
+                    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(192, 193, 198, 1) 100%);
+                }
+                &:before {
+                    height: 90px;
+                    left: 2px;
+                    border-radius: 1px;
+                }
+                &:after {
+                    left: 11px;
+                    height: 86px;
+                    border-bottom: 2px solid #646d79;
+                    border-top: 2px solid #646d79;
+                }
+
             }
         }
     }
