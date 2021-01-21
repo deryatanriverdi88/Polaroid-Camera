@@ -114,4 +114,17 @@ body {
   box-shadow: -3px 3px 1px #bab9bf, -5px 5px 4px #edeff6;
   -moz-box-shadow: -3px 3px 1px #bab9bf, -5px 5px 4px #edeff6;
 }
+
+.camera .top .flash .inside-flash {
+  width: 20px;
+  height: 92px;
+  position: relative;
+  top: 2px;
+  left: 20px;
+  border: 1px solid #e1e4e8;
+  border-radius: 1px;
+  -webkit-box-shadow: -10px -10px 10px inset #d6d8db;
+  box-shadow: -10px -10px 10px inset #d6d8db;
+  -moz-box-shadow: -10px -10px 10px inset #d6d8db;
+}
 /*# sourceMappingURL=index.css.map */
