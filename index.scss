@@ -688,5 +688,18 @@ body {
                 }
             }
         }
+        .background {
+            position: relative;
+            width: 300px;
+            height: 60px;
+            top: -285px;
+            left: -50px;
+            background-color: #585f6c;
+            background-image: $background-image;
+            background-size: contain;
+            -webkit-box-shadow: -1px 0px 2px 2.5px inset #19141b;
+            box-shadow: -1px 0px 2px 2.5px inset #19141b;
+            -moz-box-shadow: -1px 0px 2px 2.5px inset #19141b;
+        }
     }
 }
