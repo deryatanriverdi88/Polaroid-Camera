@@ -460,5 +460,21 @@ body {
                 font-size: 25px;
             }
         }
+        .click-button {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top: -290px;
+            left: 20px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(231, 160, 166, 1) 0%, rgba(203, 88, 103, 1) 50%);
+            -webkit-box-shadow: 2px 0px 2px inset #784852, -1px 0px 2px 2px #a8949f, 1px 0px 2px 3px #dde1e7,
+                4px 0px 2px 3px #afb0b4, 5px 0px 2px 3px #9c9aa2;
+            box-shadow: 2px 0px 2px inset #784852, -1px 0px 2px 2px #a8949f, 1px 0px 2px 3px #dde1e7,
+                4px 0px 2px 3px #afb0b4, 5px 0px 2px 3px #9c9aa2;
+            -moz-box-shadow: 2px 0px 2px inset #784852, -1px 0px 2px 2px #a8949f, 1px 0px 2px 3px #dde1e7,
+                4px 0px 2px 3px #afb0b4, 5px 0px 2px 3px #9c9aa2;
+            z-index: 1;
+        }
     }
 }
