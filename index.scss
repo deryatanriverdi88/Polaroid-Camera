@@ -449,6 +449,12 @@ body {
             color: #787581;
             font-size: 15px;
             font-family: "Merriweather", serif;
+            span:nth-child(1) {
+                width: fit-content;
+                display: block;
+                padding-left: 4px;
+                margin-bottom: -16px;
+            }
         }
     }
 }
