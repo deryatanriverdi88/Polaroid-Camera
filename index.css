@@ -994,4 +994,58 @@ body {
   box-shadow: 10px -10px 25px #b4b2bd;
   -moz-box-shadow: 10px -10px 25px #b4b2bd;
 }
+
+@-webkit-keyframes flash-light {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  20% {
+    width: 400px;
+    height: 400px;
+  }
+  25% {
+    width: 0;
+    height: 0;
+  }
+  45% {
+    width: 400px;
+    height: 400px;
+  }
+  50% {
+    width: 0;
+    height: 0;
+  }
+  100% {
+    width: 0;
+    height: 0;
+  }
+}
+
+@keyframes flash-light {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  20% {
+    width: 400px;
+    height: 400px;
+  }
+  25% {
+    width: 0;
+    height: 0;
+  }
+  45% {
+    width: 400px;
+    height: 400px;
+  }
+  50% {
+    width: 0;
+    height: 0;
+  }
+  100% {
+    width: 0;
+    height: 0;
+  }
+}
 /*# sourceMappingURL=index.css.map */
