@@ -297,4 +297,17 @@ body {
   box-shadow: 10px 0 2px 0 inset black, 0 0 1.5px 3px #57595e, 0.5px 0 1px 4px #010001, 6px 0 1px 5px #252327, 9px 2px 5px 6px #8b868c;
   -moz-box-shadow: 10px 0 2px 0 inset black, 0 0 1.5px 3px #57595e, 0.5px 0 1px 4px #010001, 6px 0 1px 5px #252327, 9px 2px 5px 6px #8b868c;
 }
+
+.camera .top .view-finder {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -298px;
+  left: 300px;
+  background: rgba(218, 217, 222, 0.5);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 2px 2px inset #9f9ca5, 3px 0 3px 1px inset rgba(153, 155, 204, 0.8), 6px 0 1px 1px inset #c5cbee, 13px 0 5px 5px inset rgba(153, 154, 217, 0.8), 14px 0px 1px 5px inset #ced4f0, 17px 0 10px 5px inset rgba(153, 154, 217, 0.8), 19px 0px 1px 10px inset #ced4f0, 23px 0 6px 13px inset rgba(184, 189, 231, 0.8), 0 0 2px 1px #3d3a43, -3px 0 3px 0 #807983;
+  box-shadow: 0 0 2px 2px inset #9f9ca5, 3px 0 3px 1px inset rgba(153, 155, 204, 0.8), 6px 0 1px 1px inset #c5cbee, 13px 0 5px 5px inset rgba(153, 154, 217, 0.8), 14px 0px 1px 5px inset #ced4f0, 17px 0 10px 5px inset rgba(153, 154, 217, 0.8), 19px 0px 1px 10px inset #ced4f0, 23px 0 6px 13px inset rgba(184, 189, 231, 0.8), 0 0 2px 1px #3d3a43, -3px 0 3px 0 #807983;
+  -moz-box-shadow: 0 0 2px 2px inset #9f9ca5, 3px 0 3px 1px inset rgba(153, 155, 204, 0.8), 6px 0 1px 1px inset #c5cbee, 13px 0 5px 5px inset rgba(153, 154, 217, 0.8), 14px 0px 1px 5px inset #ced4f0, 17px 0 10px 5px inset rgba(153, 154, 217, 0.8), 19px 0px 1px 10px inset #ced4f0, 23px 0 6px 13px inset rgba(184, 189, 231, 0.8), 0 0 2px 1px #3d3a43, -3px 0 3px 0 #807983;
+}
 /*# sourceMappingURL=index.css.map */
