@@ -653,4 +653,24 @@ body {
 .camera .top .slide .second-part {
   position: relative;
 }
+
+.camera .top .slide .second-part:before, .camera .top .slide .second-part:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  width: 12px;
+  height: 5px;
+  border-radius: 2px 0 0 2px;
+  background: #121215;
+  -webkit-transform: skewX(55deg);
+          transform: skewX(55deg);
+  left: 8.5px;
+}
+
+.camera .top .slide .second-part:after {
+  width: 12px;
+  left: 80px;
+  border-radius: 0 0px 0 6px;
+}
 /*# sourceMappingURL=index.css.map */
