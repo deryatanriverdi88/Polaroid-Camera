@@ -395,6 +395,29 @@ body {
                 -moz-box-shadow: -1.5px 0 0 0 #c49e6f, -1px 0 0 1px rgba(246, 216, 183, 0.7), 1.5px 0 1px 1.5px #e3b65a,
                     6px 0 1px 2px #af762c, 12px 0 2px 2px #905e09;
             }
+            minus,
+            .plus {
+                width: 8px;
+                border-radius: 1px;
+                position: relative;
+                border: 0.5px solid #e7e1e8;
+            }
+            .minus {
+                border: 0.5px solid #e7e1e8;
+                -webkit-box-shadow: 0 0 2px 1px #b2a8ad;
+                box-shadow: 0 0 2px 1px #b2a8ad;
+                -moz-box-shadow: 0 0 2px 1px #b2a8ad;
+                top: 10px;
+                left: -13px;
+            }
+            .plus {
+                width: 8px;
+                top: 7.5px;
+                left: 44px;
+                -moz-box-shadow: 1.5px 0.5px 1px 0.5px #b2a8ad;
+                box-shadow: 1.5px 0.5px 1px 0.5px #b2a8ad;
+                -webkit-box-shadow: 1.5px 0.5px 1px 0.5px #b2a8ad;
+            }
         }
     }
 }
