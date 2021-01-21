@@ -842,5 +842,11 @@ body {
     .back-div {
         position: relative;
         z-index: -11;
+        .first-part,
+        .second-part {
+            background: #302f35;
+            background-image: $background-image;
+            position: relative;
+        }
     }
 }
