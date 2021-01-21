@@ -30,3 +30,9 @@ const clickFunction = () =>{
         }, 6000);
     };
 };
+
+addDisplayNone = () => {
+    setTimeout(() => {
+        flashLight.classList.add('none');
+    }, 500);
+};
