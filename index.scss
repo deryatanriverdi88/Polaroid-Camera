@@ -194,5 +194,9 @@ body {
                 top: 3px;
             }
         }
+        .lens-div {
+            position: relative;
+            z-index: 1;
+        }
     }
 }
