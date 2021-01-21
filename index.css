@@ -938,4 +938,16 @@ body {
   -webkit-transform: rotate(-23deg);
           transform: rotate(-23deg);
 }
+
+.camera .polaroid #shadow {
+  width: 250px;
+  height: 60px;
+  -webkit-box-shadow: 45px 15px 20px #958e92;
+          box-shadow: 45px 15px 20px #958e92;
+  position: relative;
+  top: -120px;
+  left: -70px;
+  -webkit-transform: skewx(-30deg);
+          transform: skewx(-30deg);
+}
 /*# sourceMappingURL=index.css.map */
