@@ -733,4 +733,28 @@ body {
   box-shadow: 0 3px 2px #222530, 2px 1px 1px #4d5461, -4px 1px 1px inset #222631;
   -moz-box-shadow: 0 3px 2px #222530, 2px 1px 1px #4d5461, -4px 1px 1px inset #222631;
 }
+
+.camera .bottom:before, .camera .bottom:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+
+.camera .bottom:before {
+  left: 8px;
+  width: 280px;
+  height: 20px;
+  border-radius: 0 0 0 20px;
+  -webkit-box-shadow: 0 0 9px 2px inset #26252a, 0 0 10px 1px inset #a1adbe;
+  box-shadow: 0 0 9px 2px inset #26252a, 0 0 10px 1px inset #a1adbe;
+  -moz-box-shadow: 0 0 9px 2px inset #26252a, 0 0 10px 1px inset #a1adbe;
+  background: linear-gradient(163deg, #d9dde7 0%, #919ba7 18%, #949fb2 34%, #828fa0 50%, #4e4c58 65%, #39383d 79%, #323038 92%);
+}
+
+.camera .bottom:after {
+  top: 25px;
+  left: 120px;
+  width: 150px;
+  border-top: 2px solid #222127;
+}
 /*# sourceMappingURL=index.css.map */
