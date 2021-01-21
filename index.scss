@@ -673,6 +673,19 @@ body {
                 box-shadow: -2px 0 3px inset #000000, 4px -2px 6px inset #414550, 0px 0 1px 1px #000000;
                 -webkit-box-shadow: -2px 0 3px inset #000000, 4px -2px 6px inset #414550, 0px 0 1px 1px #000000;
                 -moz-box-shadow: -2px 0 3px inset #000000, 4px -2px 6px inset #414550, 0px 0 1px 1px #000000;
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    width: 13px;
+                    height: 13.5px;
+                    position: absolute;
+                    left: 16px;
+                    top: 0px;
+                    border-radius: 50%;
+                    box-shadow: 1px -1px 3px inset #80889b, 2px -2px 5px inset #3a3a48, 7px 0 2px #000000;
+                    -webkit-box-shadow: 1px -1px 3px inset #80889b, 2px -2px 5px inset #3a3a48, 7px 0 2px #000000;
+                    -moz-box-shadow: 1px -1px 3px inset #80889b, 2px -2px 5px inset #3a3a48, 7px 0 2px #000000;
+                }
             }
         }
     }
