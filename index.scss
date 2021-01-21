@@ -513,6 +513,27 @@ body {
                 position: relative;
                 left: 3px;
                 top: 5px;
+                &:before,
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    top: -2px;
+                    left: 8px;
+                    width: 15px;
+                    height: 20px;
+                    border-width: 7px 0px 7px 10px;
+                    border-color: transparent transparent transparent rgba(241, 243, 252, 0.3);
+                    border-style: solid;
+                    border-radius: 50% 0 0 50%;
+                }
+                &:after {
+                    width: 5px;
+                    height: 10px;
+                    border-width: 5px 0 5px 5px;
+                    top: 5px;
+                    left: 20px;
+                }
             }
         }
     }
