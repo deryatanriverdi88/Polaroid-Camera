@@ -1106,4 +1106,14 @@ body {
             clip-path: inset(0% 0 0 0);
   }
 }
+
+@media only screen and (min-width: 600px) {
+  #video {
+    width: 60px;
+    height: 50px;
+  }
+  .camera {
+    left: 105px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
