@@ -214,4 +214,9 @@ body {
   left: 7px;
   top: 3px;
 }
+
+.camera .top .lens-div {
+  position: relative;
+  z-index: 1;
+}
 /*# sourceMappingURL=index.css.map */
