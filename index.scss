@@ -148,6 +148,15 @@ body {
                     0 26px 0 #b9b4ae, 33px 0 0 #b9b4ae, 33px 3px 0 #b9b4ae, 33px 6px 0 #b9b4ae, 33px 9px 0 #b9b4ae,
                     33px 20 0 #b9b4ae, 33px 23px 0 #b9b4ae, 33px 26px 0 #b9b4ae;
             }
+            .light {
+                position: relative;
+                top: -40px;
+                left: 30px;
+                transform: translate(-50%, -50%);
+                background: radial-gradient(ellips at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+                border-radius: 100%;
+                animation: 1s flash-light;
+            }
         }
     }
 }
