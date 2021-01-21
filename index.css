@@ -444,4 +444,13 @@ body {
   font-size: 15px;
   font-family: "Merriweather", serif;
 }
+
+.camera .top .brand-name span:nth-child(1) {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  padding-left: 4px;
+  margin-bottom: -16px;
+}
 /*# sourceMappingURL=index.css.map */
