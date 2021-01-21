@@ -649,4 +649,8 @@ body {
   -webkit-box-shadow: 10px -6px 9px 0px inset #111114, -1px -1px 2px inset #9fb4ca, -5px -4px 3px inset #111114;
   -moz-box-shadow: 10px -6px 9px 0px inset #111114, -1px -1px 2px inset #9fb4ca, -5px -4px 3px inset #111114;
 }
+
+.camera .top .slide .second-part {
+  position: relative;
+}
 /*# sourceMappingURL=index.css.map */
