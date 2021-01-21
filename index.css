@@ -127,4 +127,26 @@ body {
   box-shadow: -10px -10px 10px inset #d6d8db;
   -moz-box-shadow: -10px -10px 10px inset #d6d8db;
 }
+
+.camera .top .flash .inside-flash:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 6.5px;
+  background: white;
+  background: radial-gradient(circle, white 0%, #c0c1c6 100%);
+}
+
+.camera .top .flash .inside-flash:before {
+  height: 90px;
+  left: 2px;
+  border-radius: 1px;
+}
+
+.camera .top .flash .inside-flash:after {
+  left: 11px;
+  height: 86px;
+  border-bottom: 2px solid #646d79;
+  border-top: 2px solid #646d79;
+}
 /*# sourceMappingURL=index.css.map */
