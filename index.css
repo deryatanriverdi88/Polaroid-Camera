@@ -408,4 +408,28 @@ body {
   box-shadow: 1.5px 0.5px 1px 0.5px #b2a8ad;
   -webkit-box-shadow: 1.5px 0.5px 1px 0.5px #b2a8ad;
 }
+
+.camera .top .minus-plus-button .plus:before, .camera .top .minus-plus-button .plus:after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: absolute;
+  border: 0.5px solid #e7e1e8;
+  -webkit-box-shadow: 1px 0 1px #b2a8ad;
+  box-shadow: 1px 0 1px #b2a8ad;
+  -moz-box-shadow: 1px 0 1px #b2a8ad;
+  z-index: 2;
+}
+
+.camera .top .minus-plus-button .plus:before {
+  left: 2.3px;
+  top: -5.5px;
+  border-radius: 1px 1px 0 0;
+}
+
+.camera .top .minus-plus-button .plus:after {
+  border-radius: 0 0 1px 1px;
+  left: 2.3px;
+  top: 1px;
+}
 /*# sourceMappingURL=index.css.map */
