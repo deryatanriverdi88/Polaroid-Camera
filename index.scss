@@ -46,5 +46,32 @@ body {
         -webkit-box-shadow: -6px 0 2px inset #b8b1b8,0 -10px 6px inset #cdd2de, 0 7px 1px inset #d8dae1, 25px 1px 0 #b0a5ae;
         box-shadow: -6px 0 2px inset #b8b1b8, 0 -10px 6px inset #cdd2de, 0 7px 1px inset #d8dae1, 25px 1px 0 #b0a5ae;
         -moz-box-shadow: -6px 0 2px inset #b8b1b8, 0 -10px 6px inset #cdd2de, 0 7px 1px inset #d8dae1, 25px 1px 0 #b0a5ae;
+        &:before,
+        &:after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+        }
+        &:before {
+            width: 18px;
+            height: 20px;
+            background: linear-gradient(90deg, rgba(217, 221, 231, 1) 0%, rgba(176, 165, 174, 1) 100%);
+            left: 265px;
+            top: 224.7px;
+            z-index: 2;
+            border-radius: 10% 10% 5px 10px;
+            transform: rotate(-5deg);
+            filter: drop-shadow(0 0 1px rgba(198, 196, 205, 0.5), blur(2px));
+        }
+        &:after {
+            background: #b0a5ae;
+            width: 125.5px;
+            height: 29px;
+            top: 205px;
+            left: 274px;
+            border-radius: 0 0 30px 0;
+            transform: skewY(-10.7deg);
+            z-index: -1;
+        }
     }
 }
