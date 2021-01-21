@@ -367,5 +367,17 @@ body {
                     border-radius: 10px;
             }
         }
+        .minus-plus-button {
+            width: 40px;
+            height: 20px;
+            position: relative;
+            background: #c49e6f;
+            top: -285px;
+            left: 307px;
+            border-radius: 10px;
+            -webkit-box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6e4c03;
+            box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6e4c03;
+            -moz-box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6e4c03;
+        }
     }
 }
