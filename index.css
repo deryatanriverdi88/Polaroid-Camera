@@ -757,4 +757,20 @@ body {
   width: 150px;
   border-top: 2px solid #222127;
 }
+
+.camera .bottom .second-part {
+  width: 362px;
+  height: 135px;
+  background-color: #585f6c;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  background-size: 20%;
+  z-index: -10;
+  position: relative;
+  left: -48px;
+  top: -32px;
+  border-radius: 3% 0 5% 20%;
+  -webkit-box-shadow: -2px 2px 2px inset #83848e, 0 2px 2px inset #191820, 5px 3px 5px inset #55525d, 0px -15px 2px inset #1e1e21, -12px 0 7px inset #1e1e21, -15px 3px 7px inset #83848e, 0px -20px 6px inset #77899c, 14px 3px 10px inset #77899c, 15px 3px 15px inset #55525d;
+  box-shadow: -2px 2px 2px inset #83848e, 0 2px 2px inset #191820, 5px 3px 5px inset #55525d, 0px -15px 2px inset #1e1e21, -12px 0 7px inset #1e1e21, -15px 3px 7px inset #83848e, 0px -20px 6px inset #77899c, 14px 3px 10px inset #77899c, 15px 3px 15px inset #55525d, 7px 8px 8px #424650, 0 60px 30px #b4b0b7;
+  -moz-box-shadow: -2px 2px 2px inset #83848e, 0 2px 2px inset #191820, 5px 3px 5px inset #55525d, 0px -15px 2px inset #1e1e21, -12px 0 7px inset #1e1e21, -15px 3px 7px inset #83848e, 0px -20px 6px inset #77899c, 14px 3px 10px inset #77899c, 15px 3px 15px inset #55525d;
+}
 /*# sourceMappingURL=index.css.map */
