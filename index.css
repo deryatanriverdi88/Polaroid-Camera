@@ -149,4 +149,16 @@ body {
   border-bottom: 2px solid #646d79;
   border-top: 2px solid #646d79;
 }
+
+.camera .top .flash .flash-lines {
+  position: relative;
+  top: 10px;
+  left: 6px;
+  width: 15px;
+  height: 1px;
+  border-top: 1px solid #b9b4ae;
+  -webkit-box-shadow: 0 3px 0 #b9b4ae, 0 6px 0 #b9b4ae, 0 9px 0 #b9b4ae, 0 20 0 #b9b4ae, 0 23px 0 #b9b4ae, 0 26px 0 #b9b4ae, 33px 0 0 #b9b4ae, 33px 3px 0 #b9b4ae, 33px 6px 0 #b9b4ae, 33px 9px 0 #b9b4ae, 33px 20 0 #b9b4ae, 33px 23px 0 #b9b4ae, 33px 26px 0 #b9b4ae;
+  box-shadow: 0 3px 0 #b9b4ae, 0 6px 0 #b9b4ae, 0 9px 0 #b9b4ae, 0 20 0 #b9b4ae, 0 23px 0 #b9b4ae, 0 26px 0 #b9b4ae, 33px 0 0 #b9b4ae, 33px 3px 0 #b9b4ae, 33px 6px 0 #b9b4ae, 33px 9px 0 #b9b4ae, 33px 20 0 #b9b4ae, 33px 23px 0 #b9b4ae, 33px 26px 0 #b9b4ae;
+  -moz-box-shadow: 0 3px 0 #b9b4ae, 0 6px 0 #b9b4ae, 0 9px 0 #b9b4ae, 0 20 0 #b9b4ae, 0 23px 0 #b9b4ae, 0 26px 0 #b9b4ae, 33px 0 0 #b9b4ae, 33px 3px 0 #b9b4ae, 33px 6px 0 #b9b4ae, 33px 9px 0 #b9b4ae, 33px 20 0 #b9b4ae, 33px 23px 0 #b9b4ae, 33px 26px 0 #b9b4ae;
+}
 /*# sourceMappingURL=index.css.map */
