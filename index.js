@@ -36,3 +36,8 @@ addDisplayNone = () => {
         flashLight.classList.add('none');
     }, 500);
 };
+
+clickButton.addEventListener('click', function(){
+    clickFunction();
+    addDisplayNone();
+});
