@@ -453,4 +453,9 @@ body {
   padding-left: 4px;
   margin-bottom: -16px;
 }
+
+.camera .top .brand-name span.number {
+  color: #dec487;
+  font-size: 25px;
+}
 /*# sourceMappingURL=index.css.map */
