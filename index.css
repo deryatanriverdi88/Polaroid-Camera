@@ -673,4 +673,21 @@ body {
   left: 80px;
   border-radius: 0 0px 0 6px;
 }
+
+.camera .top .slide .third-part {
+  width: 40px;
+  height: 15px;
+  position: relative;
+  left: 40px;
+  top: 1px;
+  background: #444447;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  background-size: 100%;
+  -webkit-transform: skewX(55deg);
+          transform: skewX(55deg);
+  border-radius: 40px;
+  box-shadow: -2px 0 3px inset #000000, 4px -2px 6px inset #414550, 0px 0 1px 1px #000000;
+  -webkit-box-shadow: -2px 0 3px inset #000000, 4px -2px 6px inset #414550, 0px 0 1px 1px #000000;
+  -moz-box-shadow: -2px 0 3px inset #000000, 4px -2px 6px inset #414550, 0px 0 1px 1px #000000;
+}
 /*# sourceMappingURL=index.css.map */
