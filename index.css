@@ -161,4 +161,16 @@ body {
   box-shadow: 0 3px 0 #b9b4ae, 0 6px 0 #b9b4ae, 0 9px 0 #b9b4ae, 0 20 0 #b9b4ae, 0 23px 0 #b9b4ae, 0 26px 0 #b9b4ae, 33px 0 0 #b9b4ae, 33px 3px 0 #b9b4ae, 33px 6px 0 #b9b4ae, 33px 9px 0 #b9b4ae, 33px 20 0 #b9b4ae, 33px 23px 0 #b9b4ae, 33px 26px 0 #b9b4ae;
   -moz-box-shadow: 0 3px 0 #b9b4ae, 0 6px 0 #b9b4ae, 0 9px 0 #b9b4ae, 0 20 0 #b9b4ae, 0 23px 0 #b9b4ae, 0 26px 0 #b9b4ae, 33px 0 0 #b9b4ae, 33px 3px 0 #b9b4ae, 33px 6px 0 #b9b4ae, 33px 9px 0 #b9b4ae, 33px 20 0 #b9b4ae, 33px 23px 0 #b9b4ae, 33px 26px 0 #b9b4ae;
 }
+
+.camera .top .flash .light {
+  position: relative;
+  top: -40px;
+  left: 30px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: radial-gradient(ellips at center, white 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 100%;
+  -webkit-animation: 1s flash-light;
+          animation: 1s flash-light;
+}
 /*# sourceMappingURL=index.css.map */
