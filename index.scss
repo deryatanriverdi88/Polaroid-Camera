@@ -848,5 +848,16 @@ body {
             background-image: $background-image;
             position: relative;
         }
+        .first-part {
+            width: 100px;
+            height: 240px;
+            background-size: 50%;
+            top: -225px;
+            left: 340px;
+            border-radius: 0 40px 0 0;
+            -webkit-box-shadow: 6px 10px 6px inset #6d6871, 20px 13px 25px inset #38363c, 70px 0 25px inset #342d35;
+            box-shadow: 6px 10px 6px inset #6d6871, 20px 13px 25px inset #38363c, 70px 0 25px inset #342d35;
+            -moz-box-shadow: 6px 10px 6px inset #6d6871, 20px 13px 25px inset #38363c, 70px 0 25px inset #342d35;
+        }
     }
 }
