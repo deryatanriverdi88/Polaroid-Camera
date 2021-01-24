@@ -44,9 +44,12 @@ body {
         height: 200px;
         background: #dce1e9;
         border-radius: 30px 30px 10px 0;
-        -webkit-box-shadow: -6px 0 2px inset #b8b1b8,0 -10px 6px inset #cdd2de, 0 7px 1px inset #d8dae1, 25px 1px 0 #b0a5ae;
-        box-shadow: -6px 0 2px inset #b8b1b8, 0 -10px 6px inset #cdd2de, 0 7px 1px inset #d8dae1, 25px 1px 0 #b0a5ae;
-        -moz-box-shadow: -6px 0 2px inset #b8b1b8, 0 -10px 6px inset #cdd2de, 0 7px 1px inset #d8dae1, 25px 1px 0 #b0a5ae;
+        -webkit-box-shadow: -6px 0px 2px 0 inset #b8b1b8, 0 -10px 6px 0 inset #cdd2de, 0px 7px 1px 0 inset #d8dae1,
+            25px 1px 0px 0px #b0a5ae;
+        box-shadow: -6px 0px 2px 0 inset #b8b1b8, 0 -10px 6px 0 inset #cdd2de, 0px 7px 1px 0 inset #d8dae1,
+            25px 1px 0px 0px #b0a5ae;
+        -moz-box-shadow: -6px 0px 2px 0 inset #b8b1b8, 0 -10px 6px 0 inset #cdd2de, 0px 7px 1px 0 inset #d8dae1,
+            25px 1px 0px 0px #b0a5ae;
         &:before,
         &:after {
             content: "";
