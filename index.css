@@ -94,7 +94,6 @@ body {
   position: relative;
   top: 20px;
   left: 20px;
-  background: white;
   background: radial-gradient(circle, white 0%, #c0c1c6 100%);
   border-radius: 10px;
   -webkit-box-shadow: 0 3px 2px #bdcbdd inset, 6px 0px 2px #585a5f inset, 2px 0px 3px #767b83;
