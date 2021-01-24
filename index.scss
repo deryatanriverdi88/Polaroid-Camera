@@ -326,52 +326,52 @@ body {
                 19px 0px 1px 10px inset #ced4f0, 23px 0 6px 13px inset rgba(184, 189, 231, 0.8), 0 0 2px 1px #3d3a43,
                 -3px 0 3px 0 #807983;
             .reflection {
-                    width: 23px;
-                    height: 50px;
-                    border-style: solid;
-                    border-width: 7px 0px 7px 10px;
+                width: 23px;
+                height: 50px;
+                border-style: solid;
+                border-width: 7px 0px 7px 10px;
+                border-color: transparent transparent transparent rgba(241, 243, 252, 0.6);
+                position: relative;
+                left: 12px;
+                top: 5px;
+                &:before,
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
                     border-color: transparent transparent transparent rgba(241, 243, 252, 0.6);
-                    position: relative;
-                    left: 12px;
+                    border-style: solid;
+                }
+                &:before {
+                    width: 15px;
+                    height: 20px;
+                    border-width: 7px 0px 7px 10px;
+                    left: 5px;
+                    top: 0px;
+                }
+                &:after {
+                    width: 5px;
+                    height: 10px;
+                    border-width: 5px 0 5px 5px;
                     top: 5px;
-                    &:before,
-                    &:after {
-                        content: "";
-                        display: inline-block;
-                        position: absolute;
-                        border-color: transparent transparent transparent rgba(241, 243, 252, 0.6);
-                        border-style: solid;
-                    }
-                    &:before {
-                        width: 15px;
-                        height: 20px;
-                        border-width: 7px 0px 7px 10px;
-                        left: 5px;
-                        top: 0px;
-                    }
-                    &:after {
-                        width: 5px;
-                        height: 10px;
-                        border-width: 5px 0 5px 5px;
-                        top: 5px;
-                        left: 18px;
-                    }
+                    left: 18px;
+                }
             }
             .glass {
-                    width: 60px;
-                    height: 60px;
-                    background: linear-gradient(
-                        90deg,
-                        rgba(164, 166, 231, 0.6) 0%,
-                        rgba(137, 136, 196, 0.6) 17%,
-                        rgba(112, 113, 167, 0.6) 44%,
-                        rgba(179, 167, 198, 0.6) 67%,
-                        rgba(161, 149, 176, 0.3) 80%,
-                        rgba(82, 73, 83, 0.3) 100%
-                    );
-                    position: relative;
-                    top: -50px;
-                    border-radius: 10px;
+                width: 60px;
+                height: 60px;
+                background: linear-gradient(
+                    90deg,
+                    rgba(164, 166, 231, 0.6) 0%,
+                    rgba(137, 136, 196, 0.6) 17%,
+                    rgba(112, 113, 167, 0.6) 44%,
+                    rgba(179, 167, 198, 0.6) 67%,
+                    rgba(161, 149, 176, 0.3) 80%,
+                    rgba(82, 73, 83, 0.3) 100%
+                );
+                position: relative;
+                top: -50px;
+                border-radius: 10px;
             }
         }
         .minus-plus-button {
@@ -384,6 +384,7 @@ body {
             border-radius: 10px;
             -webkit-box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6e4c03;
             box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6e4c03;
+
             -moz-box-shadow: 4px 0 4px inset #999199, 6px 0 0px 1px inset #624122, 10px 0 4px 0px inset #6e4c03;
             &:before {
                 content: "";
@@ -721,6 +722,7 @@ body {
         border-color: transparent transparent transparent #151518;
         -webkit-box-shadow: 0 3px 2px #222530, 2px 1px 1px #4d5461, -4px 1px 1px inset #222631;
         box-shadow: 0 3px 2px #222530, 2px 1px 1px #4d5461, -4px 1px 1px inset #222631;
+
         -moz-box-shadow: 0 3px 2px #222530, 2px 1px 1px #4d5461, -4px 1px 1px inset #222631;
         &:before,
         &:after {
@@ -774,7 +776,7 @@ body {
             -moz-box-shadow: -2px 2px 2px inset #83848e, 0 2px 2px inset #191820, 5px 3px 5px inset #55525d,
                 0px -15px 2px inset #1e1e21, -12px 0 7px inset #1e1e21, -15px 3px 7px inset #83848e,
                 0px -20px 6px inset #77899c, 14px 3px 10px inset #77899c, 15px 3px 15px inset #55525d;
-                &:before,
+            &:before,
             &:after {
                 content: "";
                 display: inline-block;
@@ -887,8 +889,8 @@ body {
                 width: 74px;
                 height: 80px;
                 top: 156px;
-                left: 99.5px;
-                border-radius: 0 10px 0 0;
+                left: 99px;
+                border-radius: 0 10% 0 0;
             }
         }
         .second-part {
