@@ -9,42 +9,42 @@ let dataUrl = canvas.toDataURL();
 let shadow = document.querySelector("#shadow");
 
 function converetCanvastoImage(c){
-    src = c.toDataURL('image/jpeg');
-    return src
+	src = c.toDataURL('image/jpeg');
+	return src;
 };
 
 const clickFunction = () =>{
-    img.classList.add('none');
-    img.classList.remove('metrix');
-    shadow.classList.add('none');
-    if(flashLight.classList.contains("none")){
-        context.drawImage(video, 0, 0, 640, 480);
-        flashLight.classList.remove("none");
-        img.src =  converetCanvastoImage(canvas);
-        setTimeout(() => {
-            img.classList.remove("none");
-    } , 500);
-        setTimeout(() => {
-            img.classList.add('metrix');
-            shadow.classList.remove('none');
-        }, 6000);
+	img.classList.add('none');
+	img.classList.remove('metrix');
+	shadow.classList.add('none');
+	if(flashLight.classList.contains("none")){
+		context.drawImage(video, 0, 0, 640, 480);
+		flashLight.classList.remove("none");
+		img.src =  converetCanvastoImage(canvas);
+		setTimeout(() => {
+			img.classList.remove("none");
+	    }, 500);
+		setTimeout(() => {
+			img.classList.add('metrix')
+			shadow.classList.remove('none')
+		}, 6000);
     };
 };
 
 addDisplayNone = () => {
-    setTimeout(() => {
-        flashLight.classList.add('none');
-    }, 500);
+	setTimeout(() => {
+		flashLight.classList.add('none');
+	}, 500);
 };
 
 clickButton.addEventListener('click', function(){
-    clickFunction();
-    addDisplayNone();
-});
+	clickFunction();
+	addDisplayNone();
+})
 
 if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
-    navigator.mediaDevices.getUserMedia({video: true}).then(stream => {
-        video.srcObject = stream;
-        video.play();
-    });
+	navigator.mediaDevices.getUserMedia({video: true}).then(stream => {
+		video.srcObject = stream;
+		video.play();
+	});
 };
