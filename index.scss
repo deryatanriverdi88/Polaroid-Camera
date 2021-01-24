@@ -113,6 +113,7 @@ body {
                 -webkit-box-shadow: -10px -10px 10px inset #d6d8db;
                 box-shadow: -10px -10px 10px inset #d6d8db;
                 -moz-box-shadow: -10px -10px 10px inset #d6d8db;
+                &:before,
                 &:after {
                     content: "";
                     display: inline-block;
@@ -132,7 +133,6 @@ body {
                     border-bottom: 2px solid #646d79;
                     border-top: 2px solid #646d79;
                 }
-
             }
             .flash-lines {
                 position: relative;
